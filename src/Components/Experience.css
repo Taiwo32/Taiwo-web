@@ -1,0 +1,33 @@
+.exp-body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  .exp-header {
+    text-align: center;
+    color: goldenrod;
+    padding-bottom: 35px;
+  }
+  
+  .exp-content {
+    color: gold;
+  
+    line-height: 30px;
+  }
+  
+  .content-1 {
+    padding-top: 20px;
+    padding-left: 10px;
+    border: 2px solid burlywood;
+  }
+  
+  @media screen and (max-width: 900px) {
+    hr {
+      width: 100%;
+    }
+  
+    .exp-body {
+      width: 100%;
+    }
+  }

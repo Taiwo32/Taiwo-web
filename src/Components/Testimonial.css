@@ -1,0 +1,84 @@
+.testimonial-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .testimonial-all .testimonial-header {
+    text-align: center;
+    background-color: rgba(16, 202, 103, 0.356);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .testimonial-all .testimonial-header h1 {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    position: relative;
+    top: 50%;
+  }
+  
+  .testimonial-all .testimonial-body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  .testimonial-all .testimonial-body .test-boxes1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .testimonial-all .testimonial-body .test-boxes2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .testimonial-all .testimonial-body .test-boxes {
+    padding: 2rem;
+  }
+  
+  .testimonial-all .testimonial-body .test-boxes img {
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin-left: 100px;
+  }
+  
+  .testimonial-all .testimonial-body .test-boxes h2 {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .testimonial-all .testimonial-body .test-boxes p {
+    text-align: center;
+    color: gray;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .testimonial-all {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .testimonial-all .testimonial-header h1 {
+      font-size: 20px;
+    }
+  
+    .testimonial-all .testimonial-header {
+      width: 100%;
+      height: 50vh;
+    }
+  
+    .testimonial-all .testimonial-body .test-boxes {
+      padding: 0rem;
+    }
+  
+    .testimonial-all .testimonial-body .test-boxes img {
+      width: 40%;
+    }
+  
+    .testimonial-all .testimonial-body .test-boxes h2 {
+      font-size: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+.edu-body {
+    height: 50vh;
+    display: flex;
+    background-color: black;
+  }
+  
+  .edu-left {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid green;
+    border-bottom: 2px solid blue;
+    color: gold;
+  }
+  
+  .edu-right {
+    line-height: 30px;
+    width: 100%;
+    border-bottom: 2px solid green;
+  }
+  
+  .right-1 {
+    border: 2px solid green;
+    padding-top: 40px;
+    padding-left: 10px;
+    color: gold;
+  }
+  
+  .right-2 {
+    border: 2px solid red;
+    padding-top: 20px;
+    color: gold;
+    padding-left: 10px;
+    height: 28.2vh;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .edu-body {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .edu-left {
+      width: 100%;
+    }
+    .edu-right {
+      width: 100%;
+    }
+  }

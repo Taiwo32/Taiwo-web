@@ -1,0 +1,52 @@
+.Myprojects {
+    height: 100vh;
+    background-color: rgba(22, 177, 128, 0.356);
+  }
+  .Myprojects .rowComponent {
+    height: 70vh;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  
+  .Myprojects .project-header {
+    text-align: center;
+    height: 20vh;
+    padding-top: 2rem;
+  }
+  .box img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  
+  .div1 {
+    grid-area: 1 / 1 / 3 / 3;
+    border: 2px solid black;
+  }
+  .div2 {
+    grid-area: 3 / 1 / 5 / 3;
+    border: 2px solid black;
+  }
+  .div3 {
+    grid-area: 1 / 3 / 3 / 7;
+    border: 2px solid black;
+  }
+  .div4 {
+    grid-area: 3 / 3 / 5 / 7;
+    border: 2px solid black;
+  }
+  .div5 {
+    grid-area: 5 / 1 / 7 / 3;
+    border: 2px solid black;
+  }
+  .div6 {
+    grid-area: 5 / 3 / 7 / 7;
+    border: 2px solid black;
+}

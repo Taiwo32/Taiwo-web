@@ -1,0 +1,26 @@
+.fotter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(11, 101, 81);
+    color: goldenrod;
+    padding: 30px;
+    position: relative;
+    height: 30vh;
+  }
+  
+  .footer .bord {
+    border: 0.4px solid rgba(245, 156, 156, 0.671);
+    width: 23%;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .footer {
+      justify-content: flex-start;
+    }
+  
+    .footer .bord {
+      width: 80%;
+    }
+  }

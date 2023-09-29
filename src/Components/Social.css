@@ -1,0 +1,7 @@
+.social-box {
+    width: 18%;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding-top: 70px;
+}
