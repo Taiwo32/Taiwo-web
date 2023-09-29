@@ -12,8 +12,8 @@ const Navbar = () => {
         <div className='navright'>
             <ul>
                     <li><a href="/"> Home </a></li>
-                    <li><a href="about.html"> Get Resume </a></li>
-                    <li><a href="/Contact"> Contact </a></li>
+                    <li><a href="/ab"> Get Resume </a></li>
+                    <li><a href="/con"> Contact </a></li>
             </ul>
         </div>
 
