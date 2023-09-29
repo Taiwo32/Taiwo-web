@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Hompage />} />
-          <Route path='/con' element={<Contact />} />
+          <Route path='/link' element={<Contact />} />
         </Routes>
        
       </Router>
